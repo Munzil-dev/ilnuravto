@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+html, body {
+	margin:0;
+	padding:0;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body {
+    background: #fff;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+    background-size: 100%;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+.none {
+	display: none;
+}
+.wrapper {
+	width: 960px;
+	margin: auto;
+}
+.clear {
+	clear: both;
+}
+.fleft {
+    float: left;
+}
+.fright {
+    float: right;
+}
+header {
+    height: 50px;
+    background: #196704;
+    margin: 0 0 20px;
+}
+section {
+	clear: both;
+}
+.phone_header {
+	line-height: 50px;
+	color: #fff;
+	background: url(/img/phonew.png)no-repeat center left;
+	padding-left: 25px;
+}
+.reverse_button_header a {
+	color: #fff;
+    height: 26px;
+    border: 1px solid;
+    margin-top: 12px;
+    display: block;
+    line-height: 26px;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+.name_store {
+    font-size: 37px;
+    color: #196704;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+.name_store span {
+	display: block;
+	text-transform: uppercase;
+	color: #ef0000;
+	font-size: 16px;
+	text-align: right;
+}
+.box_aksi {
+	padding: 25px 50px 25px 0px;
+	background: url(/img/box.png)no-repeat center right; 
+	color: #363636;
+	font-size: 13px;
+	font-weight: 700;
+}
+.box_aksi span {
+	color: #ef0000;
+}
+.top_line div {
+	color: #000;
+    font-size: 13px;
+    height: 25px;
+    line-height: 25px;
+	margin: 16px;
+}
+
+.top_line div span {
+	color:  #196704;
+}
+.top_line div img {
+	float: left;
+	margin-right: 5px;
+}
+.top_line div a, .top_line div span {
+	text-decoration: underline;
+}
+.menu {
+	height: 40px;
+	background: #196704;
+	margin-bottom: 20px;
+}
+.menu a {
+	font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 0 38px;
+}
+.menu a:hover{
+    border-bottom: 1px solid #fff;
+}
+.left_bar {
+	width: 190px;
+	padding: 10px;
+	background-color: #ccc;
+	float: left;
+}
+.content {
+	float: right;
+	width: 750px;
+}
+.slider {
+	position: relative;
+}
+.slider span.prev_slider, .slider span.next_slider {
+	font-size: 25px;
+	font-weight: 600; 
+	position: absolute;
+	top: 45%;
+	color: #fff;
+	z-index: 10;
+	cursor: pointer;
+}
+.slider span.prev_slider {
+	float: left;
+	left: 5px;
+}
+.slider span.next_slider {
+	float: right;
+	right: 5px;
+}
+.slick-dots li button {
+	background: #196704;
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+}
+.slick-dots li.slick-active button {
+	background: #ef0000;
+}
+.icon_home {
+    float: left;
+    text-align: center;
+    margin: 35px 64px 0;
+}
+.icon_home span {
+	font-size: 16px;
+	font-weight: 600;
+	display: block;
+}
+.icon_home img:hover {
+	transform: rotateY(180deg);
+	transition: all 500ms ease;
+}
+.car_banner {
+    height: 300px;
+    width: 100%;
+    background: url(/img/car.png)no-repeat center / cover;
+    background-size: 100%;
+    margin: 40px 0;
+}
+.car_banner_text {
+	width: 345px;
+}
+.car_banner_text p {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	width: 345px;
+	padding: 60px 35px 0;
+}
+.car_banner_text p span {
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.car_banner_text a {
+	background: #f00;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    width: 170px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+div.zag, div.zag_red {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+    color: #363636;
+}
+div.zag_red {
+	color: #f00;
+	text-transform: uppercase;
+}
+section.gray {
+	background-color: #eae7e2;
+}
+.product_elem {
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    float: left;
+    padding-top: 10px;
+    margin: 10px 25px;
+}
+.pe_status {
+	text-align: center;
+    background: #196704;
+    color: #fff;
+    width: 100px;
+    margin-left: 100px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.pe_img {
+	display: block;
+    margin: 20px auto 10px;
+}
+.pe_name {
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+}
+.pe_price {
+	width: 125px;
+	height: 30px;
+	line-height: 30px;
+	background: #196704;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+.pe_price span{
+	font-size: 14px;
+}
+.pe_buy_button {
+    color: #196704;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 5px 25px;
+}    
+.home_text {
+	font-size: 15px;
+}
